@@ -1,0 +1,21 @@
+<view class="bottomTheColorless" style="height: {{height}};border-radius: {{radius}};top: {{top}};">
+	<view class="navItem">
+		<text class="iconfont icon-tuijian"></text>
+		<text>谈合作</text>
+	</view>
+	<view class="navItem">
+		<text class="iconfont icon-gedan"></text>
+		<text>已报名</text>
+	</view>
+	<view class="navItem">
+		<text class="iconfont icon-paixingbang"></text>
+		<text>发职位</text>
+	</view>
+	<view class="navItem">
+		<text class="iconfont icon-paixingbang"></text>
+		<text>发职位</text>
+	</view>
+	<view class="coloredTop" catchtap="open">
+		+
+	</view>
+</view>

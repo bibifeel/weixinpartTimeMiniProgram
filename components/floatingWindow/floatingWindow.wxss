@@ -1,0 +1,39 @@
+@import "/static/iconfont/iconfont.wxss";
+
+.bottomTheColorless {
+	position: fixed;
+	top: 950rpx;
+	right: 25rpx;
+	height: 110rpx;
+	width: 110rpx;
+	background: #00ffc6;
+	border-radius: 100%;
+	transition: 0.2s;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 110rpx;
+	margin-top: 10rpx;
+}
+
+.bottomTheColorless .coloredTop {
+	position: fixed;
+	top: 950rpx;
+	right: 25rpx;
+	height: 110rpx;
+	width: 110rpx;
+	background: #1d1d1d;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 60rpx;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

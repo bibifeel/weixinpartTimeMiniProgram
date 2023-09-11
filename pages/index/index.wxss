@@ -1,0 +1,152 @@
+/* 搜索栏 */
+.head {
+	height: 400rpx;
+	background: #f8f8f8;
+}
+
+.search {
+	display: -webkit-box;
+	height: 100rpx;
+	line-height: 100rpx;
+	/* background: maroon; */
+}
+
+.search .iconfont {
+	font-size: 60rpx;
+	margin: 0 30rpx 0 30rpx;
+}
+
+.search .textBox {
+	font-size: 40rpx;
+}
+
+.search .searchBox {
+	background: linear-gradient(125deg, #ffdfec, #d0fef4);
+	border-radius: 40rpx;
+	padding: 14rpx 0 14rpx 40rpx;
+	margin-top: 14rpx;
+	margin-left: 30rpx;
+}
+
+/* 轮播图 */
+swiper image {
+	height: 100%;
+	width: 600rpx;
+	margin-left: 25rpx;
+	border-radius: 25rpx;
+}
+
+/* 招聘区域 */
+.recruitment {
+	display: block;
+	padding: 20rpx;
+	background: #f8f8f8;
+}
+
+.recruitment .recHead {
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.recruitment .iconfont {
+	font-size: 40rpx;
+	font-weight: 100;
+}
+
+.recruitment .more {
+	float: right;
+	color: #878787;
+}
+
+.recruitment .recBody {
+	height: 500rpx;
+	padding-top: 25rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.recruitment .recBody .recItem {
+	height: 226rpx;
+	width: 345rpx;
+	background: #ffffff;
+	border: 1rpx solid #ededed;
+	border-radius: 20rpx;
+	position: relative;
+}
+
+.recruitment .recBody .recItem image {
+	height: 200rpx;
+	width: 140rpx;
+	float: left;
+	margin: 15rpx 10rpx 15rpx 15rpx;
+	border-radius: 15rpx;
+}
+
+.recruitment .recBody .recItem .recTile {
+	display: block;
+	margin-top: 15rpx;
+	font-size: 36rpx;
+}
+
+.recruitment .recBody .recItem .recText {
+	display: block;
+	font-size: 28rpx;
+	color: #878787;
+}
+
+.recruitment .recBody .recItem .recVisit {
+	display: block;
+	position: absolute;
+	left: 164rpx;
+	bottom: 15rpx;
+	font-size: 24rpx;
+	color: #878787;
+}
+
+/* 小测试区域 */
+.test {
+	height: 100rpx;
+	background: #f8f8f8;
+}
+
+.test .box {
+	width: 700rpx;
+	margin-left: 25rpx;
+	background: linear-gradient(-65deg, #fcf2ec, #fcf4ef, #fcf2ec, #fcf4ef, #fcf2ec);
+	border-radius: 15rpx;
+	height: 100rpx;
+}
+
+.test .box .iconfont {
+	line-height: 100rpx;
+	color: #ffd60f;
+	margin-left: 20rpx;
+	font-size: 30rpx;
+	display: block;
+	float: left;
+}
+
+.test .box .text {
+	line-height: 100rpx;
+	font-weight: bold;
+	font-size: 30rpx;
+	margin-left: 10rpx;
+	display: block;
+	float: left;
+}
+
+.swiper-view {
+	height: 100rpx;
+	width: 400rpx;
+	display: block;
+	float: left;
+	margin-top: 30rpx;
+	margin-left: 30rpx;
+}
+
+.swiper_container {
+	font-size: 26rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}

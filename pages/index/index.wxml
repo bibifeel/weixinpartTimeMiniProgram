@@ -1,0 +1,73 @@
+<view class="head">
+	<!-- 搜索栏 -->
+	<view class="search">
+		<text class="iconfont icon-tuijian"></text>
+		<text class="textBox">兰州市</text>
+		<input type="text" class="searchBox" placeholder="寒假工" />
+	</view>
+	<!-- 轮播图 -->
+	<view class="swiperBox">
+		<swiper circular next-margin="50rpx" previous-margin="50rpx" indicator-dots indicator-active-color="#11866e" indicator-color="ivory" autoplay="true">
+			<swiper-item>
+				<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			</swiper-item>
+		</swiper>
+	</view>
+</view>
+<view class="recruitment">
+	<view class="recHead">
+		<text class="iconfont icon-tuijian"> 专场招聘</text>
+		<text class="more">更多—></text>
+	</view>
+	<view class="recBody">
+		<view class="recItem">
+			<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			<text class="recTile">日结兼职</text>
+			<text class="recText">速战速决，工资秒结</text>
+			<text class="recVisit">3830人浏览</text>
+		</view>
+		<view class="recItem">
+			<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			<text class="recTile">周末兼职</text>
+			<text class="recText">学生党最爱</text>
+			<text class="recVisit">1518人浏览</text>
+		</view>
+		<view class="recItem">
+			<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			<text class="recTile">日结兼职</text>
+			<text class="recText">速战速决，工资秒结</text>
+			<text class="recVisit">3830人浏览</text>
+		</view>
+		<view class="recItem">
+			<image src="/static/images/bird-gd7c9d42cc_1920.jpg"></image>
+			<text class="recTile">日结兼职</text>
+			<text class="recText">速战速决，工资秒结</text>
+			<text class="recVisit">3830人浏览</text>
+		</view>
+	</view>
+</view>
+<view class="test">
+	<view class="box">
+		<text class="iconfont icon-tuijian"></text>
+		<text class="text">哆咪小测试</text>
+		<view class="swiper-view">
+			<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
+				<block wx:for="{{msgList}}" wx:key="index">
+					<swiper-item>
+						<view class="swiper_item">{{item.title}}</view>
+					</swiper-item>
+				</block>
+			</swiper>
+		</view>
+	</view>
+</view>
+
+
+<!-- 悬浮窗 -->
+<floatingWindow></floatingWindow>
